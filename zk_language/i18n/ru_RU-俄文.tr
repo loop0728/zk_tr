@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Привет, мир!</string>
+    <string name="text">текст</string>
+    <string name="video">видео</string>
+    <string name="audio">звук</string>
+    <string name="net">чистая стоимость</string>
+    <string name="ip_camera">IP - камера</string>
+    <string name="progressbar">темп</string>
+</resources>

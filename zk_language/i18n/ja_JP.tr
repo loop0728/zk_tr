@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">こんにちは世界!</string>
+    <string name="text">テキスト</string>
+    <string name="video">ビデオ</string>
+    <string name="audio">オーディオ</string>
+    <string name="net">ネット</string>
+    <string name="ip_camera">IPカメラ</string>
+    <string name="progressbar">プログレスバー</string>
+</resources>

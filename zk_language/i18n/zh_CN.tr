@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">你好,世界!</string>
+    <string name="text">文本</string>
+    <string name="video">视频</string>
+    <string name="audio">音频</string>
+    <string name="net">网络</string>
+    <string name="ip_camera">网络摄像机</string>
+    <string name="progressbar">进度条</string>
+</resources>

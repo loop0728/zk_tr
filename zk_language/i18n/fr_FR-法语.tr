@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Salut, le monde!</string>
+    <string name="text">Texte</string>
+    <string name="video">Vidéo</string>
+    <string name="audio">Audio</string>
+    <string name="net">Réseau</string>
+    <string name="ip_camera">Caméra IP</string>
+    <string name="progressbar">Barre de progression</string>
+</resources>
