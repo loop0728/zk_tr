@@ -46,4 +46,15 @@ customer 是app的运行环境。包含 bin，etc，lib，res和demo.sh。
 # 编译运行
 在IDE中编译工程，导出生成文件。生成的libzkgui.so和ui替换/customer/lib/libzkgui.so, /customer/res/ui。生成的tr下的文件放置到/customer/res/lang下。
 
+# 备注
+我们还可以获取当前语言name对应的value值，然后做一些类似拼接的操作等等。例如：
+#include "manager/LanguageManager.h"
 
+static bool onButtonClick_Button1(ZKButton *pButton) {
+    //LOGD(" ButtonClick Button1 !!!\n");
+    std::string hello = LANGUAGEMANAGER->getValue("hello");
+    std::string world = LANGUAGEMANAGER->getValue("world");
+    std::string ret = hello + " " + world;
+    LOGD("ret: %s\n", ret.c_str());
+    return false;
+}
